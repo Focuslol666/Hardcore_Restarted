@@ -45,4 +45,5 @@ if replicatesignal then
 else
     game.Players.LocalPlayer.Character.Humanoid.Health = 0
     game.Players.LocalPlayer:SetAttribute("Alive", false)
+    game.Players.LocalPlayer.Character:SetAttribute("Stunned", true)
 end
